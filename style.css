@@ -210,6 +210,9 @@ h3{
 @media screen and (max-width:360px) {
     
     /* welcome bar */
+    #com{
+        width: 99%;
+    }
     #welcome h3{
         font-size: 23px;
         letter-spacing: 0;
@@ -296,17 +299,24 @@ h3{
         margin: 140px 0px 0px 4px;
     }
     /* user imgs */
+    
     #user .two{
         margin: 0px 75px -303px 0px;
+        position: fixed;
+        left: -13px;
+        top:394px;
     }
     #user button .urock{
         margin: 0px 0px 0px 0px;
-        width: 125px;
+        width: 121px;
         height: 140px;
+    }
+    #ur{
+        margin: 0px 5px 0px 0px ;
     }
     #user button .upaper{
         margin: 0;
-        width: 120px;
+        width: 111px;
         height: 140px;
     }
     #user button .uss{
@@ -318,7 +328,7 @@ h3{
         font-size: 17px;
         letter-spacing: 0;
         position: fixed;
-        top: 325px;
+        top: 310px;
         left: 0;
     }
     #high{
@@ -332,12 +342,12 @@ h3{
     #winLose{
         position: fixed;
         left: 110px;
-        top: 332px;
+        top: 305px;
     }
     #tie{
         position: fixed;
         right: -65px;
-        top: 333px;
+        top: 305px;
     }
     /* hover */
     #user button .upaper:hover {
@@ -358,7 +368,14 @@ h3{
         border-right: 0;
         border-bottom: 0;
     }
+    #usk{
+        cursor: pointer;
+    position: fixed;
+    bottom: 74px;
+    right: -9px;
+    z-index: 2;
+    } 
+    
     
 }
-
 
